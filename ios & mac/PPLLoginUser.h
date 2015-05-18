@@ -12,8 +12,8 @@
 
 - (instancetype)initWithEmail:(NSString *)email password:(NSString *)password;
 
-@property (strong, nonatomic, readonly) NSString *email;
-@property (strong, nonatomic, readonly) NSString *password;
+@property (strong, nonatomic) NSString *email;
+@property (strong, nonatomic) NSString *password;
 
 - (NSError *)validate;
 

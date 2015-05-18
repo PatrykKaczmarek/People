@@ -7,13 +7,13 @@
 //
 
 #import "AppDelegate.h"
-#import "PPLMainWindowController.h"
+#import "PPLMacMainWindowController.h"
 
 @interface AppDelegate ()
 
 - (IBAction)saveAction:(id)sender;
 
-@property (strong, nonatomic) PPLMainWindowController *mainWindowController;
+@property (strong, nonatomic) PPLMacMainWindowController *mainWindowController;
 
 @end
 
@@ -28,7 +28,7 @@
 - (IBAction)newDocument:(id)sender {
     
     if (!self.mainWindowController) {
-        self.mainWindowController = [[PPLMainWindowController alloc] init];
+        self.mainWindowController = [[PPLMacMainWindowController alloc] init];
     }
     [self.mainWindowController showWindow:self];
 }

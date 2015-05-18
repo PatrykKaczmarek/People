@@ -11,6 +11,20 @@
 
 @implementation PPLUser
 
+- (id)copyWithZone:(NSZone *)zone {
+    
+    PPLUser *copy = [[PPLUser allocWithZone:zone] init];
+    
+    if (copy) {
+        copy.name = [self.name copyWithZone:zone];
+        copy.location = [self.location copyWithZone:zone];
+        copy.notes = [self.notes copyWithZone:zone];
+        copy.role = [self.role copyWithZone:zone];
+        copy.contract = self.contract;
+    }
+    return copy;
+}
+
 - (NSError *)validate {
     
     NSError *error;
@@ -22,6 +36,18 @@
     }];
     
     return error;
+}
+
+- (NSString *)contractToString {
+    
+    switch (self.contract) {
+        case PPLContractTypeDG:
+            return @"Działalność gospodarcza";
+        case PPLContractTypeUoP:
+            return @"Umowa o pracę";
+        case PPLContractTypeUoD:
+            return @"Umowa o dzieło";
+    }
 }
 
 @end

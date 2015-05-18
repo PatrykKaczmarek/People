@@ -24,4 +24,6 @@ typedef NS_ENUM(NSInteger, PPLContractType) {
 
 - (NSError *)validate;
 
+- (NSString *)contractToString;
+
 @end

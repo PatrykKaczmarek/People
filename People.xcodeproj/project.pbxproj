@@ -1,0 +1,1114 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E2A0F011B09873000BEE432 /* PPLAuthenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A0EFF1B09873000BEE432 /* PPLAuthenticator.m */; };
+		5E2A0F061B09876000BEE432 /* PPLLoginUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A0F041B09876000BEE432 /* PPLLoginUser.m */; };
+		5E2A0F601B099EBE00BEE432 /* PPLSharedUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A0F5E1B099EBE00BEE432 /* PPLSharedUserController.m */; };
+		5EB94FB11B0A52CC0046678E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB94FB01B0A52CC0046678E /* main.m */; };
+		5EB94FB41B0A52CC0046678E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB94FB31B0A52CC0046678E /* AppDelegate.m */; };
+		5EB94FBC1B0A52CC0046678E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB94FBB1B0A52CC0046678E /* Images.xcassets */; };
+		5EB94FBF1B0A52CC0046678E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EB94FBD1B0A52CC0046678E /* LaunchScreen.xib */; };
+		5EB94FCB1B0A52CC0046678E /* People_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB94FCA1B0A52CC0046678E /* People_iOSTests.m */; };
+		5EB94FD21B0A55530046678E /* PPLAuthenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A0EFF1B09873000BEE432 /* PPLAuthenticator.m */; };
+		5EB94FD31B0A55560046678E /* PPLSharedUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A0F5E1B099EBE00BEE432 /* PPLSharedUserController.m */; };
+		5EB94FD41B0A555A0046678E /* PPLLoginUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A0F041B09876000BEE432 /* PPLLoginUser.m */; };
+		5EB94FD51B0A555D0046678E /* PPLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3A5161B09FC4A005DBDD1 /* PPLUser.m */; };
+		5EB950231B0A58BF0046678E /* PPLSharedLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB950221B0A58BF0046678E /* PPLSharedLoginController.m */; };
+		5EB950241B0A58BF0046678E /* PPLSharedLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB950221B0A58BF0046678E /* PPLSharedLoginController.m */; };
+		5EB9502C1B0A5A770046678E /* PPLiOSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9502A1B0A5A770046678E /* PPLiOSLoginViewController.m */; };
+		5EB950381B0A5D390046678E /* PPLTextFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB950371B0A5D390046678E /* PPLTextFieldTableViewCell.m */; };
+		5EB9503C1B0A649F0046678E /* PPLiOSEmployeesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9503B1B0A649F0046678E /* PPLiOSEmployeesViewController.m */; };
+		5EB950451B0A67920046678E /* PPLEmployeeFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB950441B0A67920046678E /* PPLEmployeeFormViewController.m */; };
+		5EB9504D1B0A68D10046678E /* PPLTableViewBasedUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9504C1B0A68D10046678E /* PPLTableViewBasedUIView.m */; };
+		5EB950511B0A6A6C0046678E /* PPLColumnTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB950501B0A6A6C0046678E /* PPLColumnTableViewCell.m */; };
+		5EB950541B0A70EF0046678E /* PPLStringEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB950531B0A70EF0046678E /* PPLStringEditorViewController.m */; };
+		5EB950581B0A79A00046678E /* PPLContractTypeEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB950571B0A79A00046678E /* PPLContractTypeEditorViewController.m */; };
+		5ED3A4BB1B09F42E005DBDD1 /* People.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3A4B61B09F42E005DBDD1 /* People.xcdatamodeld */; };
+		5ED3A5181B09FC4A005DBDD1 /* PPLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3A5161B09FC4A005DBDD1 /* PPLUser.m */; };
+		5EF68A321B0966160076EFE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF68A311B0966160076EFE7 /* AppDelegate.m */; };
+		5EF68A341B0966160076EFE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF68A331B0966160076EFE7 /* main.m */; };
+		5EF68A3C1B0966160076EFE7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EF68A3B1B0966160076EFE7 /* Images.xcassets */; };
+		5EF68A4B1B0966160076EFE7 /* People_MacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF68A4A1B0966160076EFE7 /* People_MacTests.m */; };
+		5EF68A5D1B096D780076EFE7 /* PPLMacMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF68A5B1B096D780076EFE7 /* PPLMacMainWindowController.m */; };
+		5EF68A5E1B096D780076EFE7 /* PPLMainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EF68A5C1B096D780076EFE7 /* PPLMainWindow.xib */; };
+		5EF68A621B096F240076EFE7 /* PPLMacLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF68A601B096F240076EFE7 /* PPLMacLoginViewController.m */; };
+		5EF68A631B096F240076EFE7 /* PPLLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EF68A611B096F240076EFE7 /* PPLLoginView.xib */; };
+		5EF68A651B097B770076EFE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF68A641B097B770076EFE7 /* Main.storyboard */; };
+		5EF68A681B097C150076EFE7 /* PPLMacLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF68A671B097C150076EFE7 /* PPLMacLoginView.m */; };
+		5EF68A6B1B097F4E0076EFE7 /* NSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF68A6A1B097F4E0076EFE7 /* NSLabel.m */; };
+		5EF68A721B0985D50076EFE7 /* PPLMacMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF68A701B0985D50076EFE7 /* PPLMacMainViewController.m */; };
+		5EF68A731B0985D50076EFE7 /* PPLMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EF68A711B0985D50076EFE7 /* PPLMainView.xib */; };
+		89702C332CC58098D9FF11E4 /* libPods-People iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC273067BA492D870C3160B /* libPods-People iOS.a */; };
+		BA33C85F5465808FFCD8F92C /* libPods-People Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 505174E59DEE1DD457177BD8 /* libPods-People Mac.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EB94FC51B0A52CC0046678E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EF689F41B0966010076EFE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EB94FAB1B0A52CC0046678E;
+			remoteInfo = "People iOS";
+		};
+		5EF68A451B0966160076EFE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EF689F41B0966010076EFE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EF68A2B1B0966160076EFE7;
+			remoteInfo = "People Mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		221EDC5829127C58F7FF09F4 /* Pods-People Mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-People Mac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-People Mac/Pods-People Mac.debug.xcconfig"; sourceTree = "<group>"; };
+		505174E59DEE1DD457177BD8 /* libPods-People Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-People Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E2A0EFE1B09873000BEE432 /* PPLAuthenticator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPLAuthenticator.h; path = "ios & mac/PPLAuthenticator.h"; sourceTree = SOURCE_ROOT; };
+		5E2A0EFF1B09873000BEE432 /* PPLAuthenticator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPLAuthenticator.m; path = "ios & mac/PPLAuthenticator.m"; sourceTree = SOURCE_ROOT; };
+		5E2A0F031B09876000BEE432 /* PPLLoginUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPLLoginUser.h; path = "ios & mac/PPLLoginUser.h"; sourceTree = SOURCE_ROOT; };
+		5E2A0F041B09876000BEE432 /* PPLLoginUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPLLoginUser.m; path = "ios & mac/PPLLoginUser.m"; sourceTree = SOURCE_ROOT; };
+		5E2A0F5D1B099EBE00BEE432 /* PPLSharedUserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPLSharedUserController.h; path = "ios & mac/PPLSharedUserController.h"; sourceTree = SOURCE_ROOT; };
+		5E2A0F5E1B099EBE00BEE432 /* PPLSharedUserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPLSharedUserController.m; path = "ios & mac/PPLSharedUserController.m"; sourceTree = SOURCE_ROOT; };
+		5EB94FAC1B0A52CC0046678E /* People iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "People iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB94FAF1B0A52CC0046678E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EB94FB01B0A52CC0046678E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EB94FB21B0A52CC0046678E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5EB94FB31B0A52CC0046678E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5EB94FBB1B0A52CC0046678E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5EB94FBE1B0A52CC0046678E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5EB94FC41B0A52CC0046678E /* People iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "People iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB94FC91B0A52CC0046678E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EB94FCA1B0A52CC0046678E /* People_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = People_iOSTests.m; sourceTree = "<group>"; };
+		5EB950211B0A58BF0046678E /* PPLSharedLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPLSharedLoginController.h; path = "ios & mac/PPLSharedLoginController.h"; sourceTree = SOURCE_ROOT; };
+		5EB950221B0A58BF0046678E /* PPLSharedLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPLSharedLoginController.m; path = "ios & mac/PPLSharedLoginController.m"; sourceTree = SOURCE_ROOT; };
+		5EB950291B0A5A770046678E /* PPLiOSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPLiOSLoginViewController.h; sourceTree = "<group>"; };
+		5EB9502A1B0A5A770046678E /* PPLiOSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPLiOSLoginViewController.m; sourceTree = "<group>"; };
+		5EB950361B0A5D390046678E /* PPLTextFieldTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPLTextFieldTableViewCell.h; sourceTree = "<group>"; };
+		5EB950371B0A5D390046678E /* PPLTextFieldTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPLTextFieldTableViewCell.m; sourceTree = "<group>"; };
+		5EB9503A1B0A649F0046678E /* PPLiOSEmployeesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPLiOSEmployeesViewController.h; sourceTree = "<group>"; };
+		5EB9503B1B0A649F0046678E /* PPLiOSEmployeesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPLiOSEmployeesViewController.m; sourceTree = "<group>"; };
+		5EB950431B0A67920046678E /* PPLEmployeeFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPLEmployeeFormViewController.h; sourceTree = "<group>"; };
+		5EB950441B0A67920046678E /* PPLEmployeeFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPLEmployeeFormViewController.m; sourceTree = "<group>"; };
+		5EB9504B1B0A68D10046678E /* PPLTableViewBasedUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPLTableViewBasedUIView.h; sourceTree = "<group>"; };
+		5EB9504C1B0A68D10046678E /* PPLTableViewBasedUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPLTableViewBasedUIView.m; sourceTree = "<group>"; };
+		5EB9504F1B0A6A6C0046678E /* PPLColumnTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPLColumnTableViewCell.h; sourceTree = "<group>"; };
+		5EB950501B0A6A6C0046678E /* PPLColumnTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPLColumnTableViewCell.m; sourceTree = "<group>"; };
+		5EB950521B0A70EF0046678E /* PPLStringEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPLStringEditorViewController.h; sourceTree = "<group>"; };
+		5EB950531B0A70EF0046678E /* PPLStringEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPLStringEditorViewController.m; sourceTree = "<group>"; };
+		5EB950561B0A79A00046678E /* PPLContractTypeEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPLContractTypeEditorViewController.h; sourceTree = "<group>"; };
+		5EB950571B0A79A00046678E /* PPLContractTypeEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPLContractTypeEditorViewController.m; sourceTree = "<group>"; };
+		5ED3A4B71B09F42E005DBDD1 /* People.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = People.xcdatamodel; sourceTree = "<group>"; };
+		5ED3A5151B09FC4A005DBDD1 /* PPLUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPLUser.h; path = "ios & mac/PPLUser.h"; sourceTree = SOURCE_ROOT; };
+		5ED3A5161B09FC4A005DBDD1 /* PPLUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPLUser.m; path = "ios & mac/PPLUser.m"; sourceTree = SOURCE_ROOT; };
+		5EF68A2C1B0966160076EFE7 /* People Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "People Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF68A2F1B0966160076EFE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EF68A301B0966160076EFE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5EF68A311B0966160076EFE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5EF68A331B0966160076EFE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EF68A3B1B0966160076EFE7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5EF68A441B0966160076EFE7 /* People MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "People MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF68A491B0966160076EFE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EF68A4A1B0966160076EFE7 /* People_MacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = People_MacTests.m; sourceTree = "<group>"; };
+		5EF68A5A1B096D780076EFE7 /* PPLMacMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPLMacMainWindowController.h; sourceTree = "<group>"; };
+		5EF68A5B1B096D780076EFE7 /* PPLMacMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPLMacMainWindowController.m; sourceTree = "<group>"; };
+		5EF68A5C1B096D780076EFE7 /* PPLMainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PPLMainWindow.xib; sourceTree = "<group>"; };
+		5EF68A5F1B096F240076EFE7 /* PPLMacLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPLMacLoginViewController.h; sourceTree = "<group>"; };
+		5EF68A601B096F240076EFE7 /* PPLMacLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPLMacLoginViewController.m; sourceTree = "<group>"; };
+		5EF68A611B096F240076EFE7 /* PPLLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PPLLoginView.xib; sourceTree = "<group>"; };
+		5EF68A641B097B770076EFE7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5EF68A661B097C150076EFE7 /* PPLMacLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPLMacLoginView.h; sourceTree = "<group>"; };
+		5EF68A671B097C150076EFE7 /* PPLMacLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPLMacLoginView.m; sourceTree = "<group>"; };
+		5EF68A691B097F4E0076EFE7 /* NSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLabel.h; sourceTree = "<group>"; };
+		5EF68A6A1B097F4E0076EFE7 /* NSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLabel.m; sourceTree = "<group>"; };
+		5EF68A6F1B0985D50076EFE7 /* PPLMacMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPLMacMainViewController.h; sourceTree = "<group>"; };
+		5EF68A701B0985D50076EFE7 /* PPLMacMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPLMacMainViewController.m; sourceTree = "<group>"; };
+		5EF68A711B0985D50076EFE7 /* PPLMainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PPLMainView.xib; sourceTree = "<group>"; };
+		693E4DF15B993C723C85F4B3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		73D410BF3E894F2DAB7F7C86 /* Pods-People Mac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-People Mac.release.xcconfig"; path = "Pods/Target Support Files/Pods-People Mac/Pods-People Mac.release.xcconfig"; sourceTree = "<group>"; };
+		813BC688A6093CB3DD03C10A /* Pods-People iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-People iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-People iOS/Pods-People iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		8B71B671A531F8DE10C10834 /* Pods-People iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-People iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-People iOS/Pods-People iOS.release.xcconfig"; sourceTree = "<group>"; };
+		DDC273067BA492D870C3160B /* libPods-People iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-People iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EB94FA91B0A52CC0046678E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89702C332CC58098D9FF11E4 /* libPods-People iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB94FC11B0A52CC0046678E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF68A291B0966160076EFE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA33C85F5465808FFCD8F92C /* libPods-People Mac.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF68A411B0966160076EFE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BC15201BA047E2A6E21CB23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				505174E59DEE1DD457177BD8 /* libPods-People Mac.a */,
+				DDC273067BA492D870C3160B /* libPods-People iOS.a */,
+				693E4DF15B993C723C85F4B3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E2A0EFD1B09860800BEE432 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5EF68A6F1B0985D50076EFE7 /* PPLMacMainViewController.h */,
+				5EF68A701B0985D50076EFE7 /* PPLMacMainViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		5E2A0F021B09873500BEE432 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5E2A0EFE1B09873000BEE432 /* PPLAuthenticator.h */,
+				5E2A0EFF1B09873000BEE432 /* PPLAuthenticator.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		5E2A0F691B09A3C000BEE432 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5ED3A4B61B09F42E005DBDD1 /* People.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		5EB94FAD1B0A52CC0046678E /* People iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5EB94FB21B0A52CC0046678E /* AppDelegate.h */,
+				5EB94FB31B0A52CC0046678E /* AppDelegate.m */,
+				5EB950311B0A5C6A0046678E /* Common */,
+				5EB950281B0A5A5C0046678E /* Controllers */,
+				5EB950261B0A5A4F0046678E /* Resources */,
+				5EB950271B0A5A550046678E /* Interfaces */,
+				5EB94FAE1B0A52CC0046678E /* Supporting Files */,
+			);
+			path = "People iOS";
+			sourceTree = "<group>";
+		};
+		5EB94FAE1B0A52CC0046678E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EB94FAF1B0A52CC0046678E /* Info.plist */,
+				5EB94FB01B0A52CC0046678E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EB94FC71B0A52CC0046678E /* People iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EB94FCA1B0A52CC0046678E /* People_iOSTests.m */,
+				5EB94FC81B0A52CC0046678E /* Supporting Files */,
+			);
+			path = "People iOSTests";
+			sourceTree = "<group>";
+		};
+		5EB94FC81B0A52CC0046678E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EB94FC91B0A52CC0046678E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EB950251B0A58C30046678E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5E2A0F5D1B099EBE00BEE432 /* PPLSharedUserController.h */,
+				5E2A0F5E1B099EBE00BEE432 /* PPLSharedUserController.m */,
+				5EB950211B0A58BF0046678E /* PPLSharedLoginController.h */,
+				5EB950221B0A58BF0046678E /* PPLSharedLoginController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5EB950261B0A5A4F0046678E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5EB94FBB1B0A52CC0046678E /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5EB950271B0A5A550046678E /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				5EB94FBD1B0A52CC0046678E /* LaunchScreen.xib */,
+			);
+			name = Interfaces;
+			sourceTree = "<group>";
+		};
+		5EB950281B0A5A5C0046678E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5EB950391B0A63EF0046678E /* Login */,
+				5EB9503D1B0A64A40046678E /* Employees List */,
+				5EB950461B0A67950046678E /* Employee Form */,
+				5EB950551B0A70F20046678E /* String Editor */,
+				5EB950591B0A79A20046678E /* Contract Type */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5EB950311B0A5C6A0046678E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5EB950321B0A5C6F0046678E /* Cells */,
+				5EB9504E1B0A68D60046678E /* View */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		5EB950321B0A5C6F0046678E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5EB950361B0A5D390046678E /* PPLTextFieldTableViewCell.h */,
+				5EB950371B0A5D390046678E /* PPLTextFieldTableViewCell.m */,
+				5EB9504F1B0A6A6C0046678E /* PPLColumnTableViewCell.h */,
+				5EB950501B0A6A6C0046678E /* PPLColumnTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		5EB950391B0A63EF0046678E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5EB950291B0A5A770046678E /* PPLiOSLoginViewController.h */,
+				5EB9502A1B0A5A770046678E /* PPLiOSLoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		5EB9503D1B0A64A40046678E /* Employees List */ = {
+			isa = PBXGroup;
+			children = (
+				5EB9503A1B0A649F0046678E /* PPLiOSEmployeesViewController.h */,
+				5EB9503B1B0A649F0046678E /* PPLiOSEmployeesViewController.m */,
+			);
+			name = "Employees List";
+			sourceTree = "<group>";
+		};
+		5EB950461B0A67950046678E /* Employee Form */ = {
+			isa = PBXGroup;
+			children = (
+				5EB950431B0A67920046678E /* PPLEmployeeFormViewController.h */,
+				5EB950441B0A67920046678E /* PPLEmployeeFormViewController.m */,
+			);
+			name = "Employee Form";
+			sourceTree = "<group>";
+		};
+		5EB9504E1B0A68D60046678E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5EB9504B1B0A68D10046678E /* PPLTableViewBasedUIView.h */,
+				5EB9504C1B0A68D10046678E /* PPLTableViewBasedUIView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5EB950551B0A70F20046678E /* String Editor */ = {
+			isa = PBXGroup;
+			children = (
+				5EB950521B0A70EF0046678E /* PPLStringEditorViewController.h */,
+				5EB950531B0A70EF0046678E /* PPLStringEditorViewController.m */,
+			);
+			name = "String Editor";
+			sourceTree = "<group>";
+		};
+		5EB950591B0A79A20046678E /* Contract Type */ = {
+			isa = PBXGroup;
+			children = (
+				5EB950561B0A79A00046678E /* PPLContractTypeEditorViewController.h */,
+				5EB950571B0A79A00046678E /* PPLContractTypeEditorViewController.m */,
+			);
+			name = "Contract Type";
+			sourceTree = "<group>";
+		};
+		5EF689F31B0966010076EFE7 = {
+			isa = PBXGroup;
+			children = (
+				5EF68A521B0968400076EFE7 /* Shared */,
+				5EF68A2D1B0966160076EFE7 /* People Mac */,
+				5EB94FAD1B0A52CC0046678E /* People iOS */,
+				5EF68A471B0966160076EFE7 /* People MacTests */,
+				5EB94FC71B0A52CC0046678E /* People iOSTests */,
+				5EF689FD1B0966010076EFE7 /* Products */,
+				E34FEB348ABF3DD6A6A14924 /* Pods */,
+				3BC15201BA047E2A6E21CB23 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5EF689FD1B0966010076EFE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EF68A2C1B0966160076EFE7 /* People Mac.app */,
+				5EF68A441B0966160076EFE7 /* People MacTests.xctest */,
+				5EB94FAC1B0A52CC0046678E /* People iOS.app */,
+				5EB94FC41B0A52CC0046678E /* People iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EF68A2D1B0966160076EFE7 /* People Mac */ = {
+			isa = PBXGroup;
+			children = (
+				5EF68A301B0966160076EFE7 /* AppDelegate.h */,
+				5EF68A311B0966160076EFE7 /* AppDelegate.m */,
+				5EF68A6C1B097F550076EFE7 /* Common */,
+				5EF68A551B096C0D0076EFE7 /* Interfaces */,
+				5EF68A541B096C010076EFE7 /* Controllers */,
+				5EF68A531B096BF50076EFE7 /* Resources */,
+				5EF68A2E1B0966160076EFE7 /* Supporting Files */,
+			);
+			path = "People Mac";
+			sourceTree = "<group>";
+		};
+		5EF68A2E1B0966160076EFE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EF68A2F1B0966160076EFE7 /* Info.plist */,
+				5EF68A331B0966160076EFE7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EF68A471B0966160076EFE7 /* People MacTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EF68A4A1B0966160076EFE7 /* People_MacTests.m */,
+				5EF68A481B0966160076EFE7 /* Supporting Files */,
+			);
+			path = "People MacTests";
+			sourceTree = "<group>";
+		};
+		5EF68A481B0966160076EFE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EF68A491B0966160076EFE7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EF68A521B0968400076EFE7 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				5E2A0F021B09873500BEE432 /* Managers */,
+				5EF68A561B096C2A0076EFE7 /* Model */,
+				5EB950251B0A58C30046678E /* Controller */,
+			);
+			name = Shared;
+			path = "People iOS";
+			sourceTree = "<group>";
+		};
+		5EF68A531B096BF50076EFE7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5EF68A3B1B0966160076EFE7 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5EF68A541B096C010076EFE7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5EF68A5A1B096D780076EFE7 /* PPLMacMainWindowController.h */,
+				5EF68A5B1B096D780076EFE7 /* PPLMacMainWindowController.m */,
+				5E2A0EFD1B09860800BEE432 /* Main */,
+				5EF68A6D1B0985520076EFE7 /* Login */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5EF68A551B096C0D0076EFE7 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				5EF68A641B097B770076EFE7 /* Main.storyboard */,
+				5EF68A5C1B096D780076EFE7 /* PPLMainWindow.xib */,
+				5EF68A611B096F240076EFE7 /* PPLLoginView.xib */,
+				5EF68A711B0985D50076EFE7 /* PPLMainView.xib */,
+			);
+			name = Interfaces;
+			sourceTree = "<group>";
+		};
+		5EF68A561B096C2A0076EFE7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E2A0F031B09876000BEE432 /* PPLLoginUser.h */,
+				5E2A0F041B09876000BEE432 /* PPLLoginUser.m */,
+				5ED3A5151B09FC4A005DBDD1 /* PPLUser.h */,
+				5ED3A5161B09FC4A005DBDD1 /* PPLUser.m */,
+				5E2A0F691B09A3C000BEE432 /* CoreData */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5EF68A6C1B097F550076EFE7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5EF68A691B097F4E0076EFE7 /* NSLabel.h */,
+				5EF68A6A1B097F4E0076EFE7 /* NSLabel.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		5EF68A6D1B0985520076EFE7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5EF68A5F1B096F240076EFE7 /* PPLMacLoginViewController.h */,
+				5EF68A601B096F240076EFE7 /* PPLMacLoginViewController.m */,
+				5EF68A6E1B0985590076EFE7 /* View */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		5EF68A6E1B0985590076EFE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5EF68A661B097C150076EFE7 /* PPLMacLoginView.h */,
+				5EF68A671B097C150076EFE7 /* PPLMacLoginView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E34FEB348ABF3DD6A6A14924 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				221EDC5829127C58F7FF09F4 /* Pods-People Mac.debug.xcconfig */,
+				73D410BF3E894F2DAB7F7C86 /* Pods-People Mac.release.xcconfig */,
+				813BC688A6093CB3DD03C10A /* Pods-People iOS.debug.xcconfig */,
+				8B71B671A531F8DE10C10834 /* Pods-People iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EB94FAB1B0A52CC0046678E /* People iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB94FCC1B0A52CC0046678E /* Build configuration list for PBXNativeTarget "People iOS" */;
+			buildPhases = (
+				BD8BD298CD8C10F8A6D2BF70 /* Check Pods Manifest.lock */,
+				5EB94FA81B0A52CC0046678E /* Sources */,
+				5EB94FA91B0A52CC0046678E /* Frameworks */,
+				5EB94FAA1B0A52CC0046678E /* Resources */,
+				A223F83E0C60CDAC27E72E6A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "People iOS";
+			productName = "People iOS";
+			productReference = 5EB94FAC1B0A52CC0046678E /* People iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EB94FC31B0A52CC0046678E /* People iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB94FCF1B0A52CC0046678E /* Build configuration list for PBXNativeTarget "People iOSTests" */;
+			buildPhases = (
+				5EB94FC01B0A52CC0046678E /* Sources */,
+				5EB94FC11B0A52CC0046678E /* Frameworks */,
+				5EB94FC21B0A52CC0046678E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EB94FC61B0A52CC0046678E /* PBXTargetDependency */,
+			);
+			name = "People iOSTests";
+			productName = "People iOSTests";
+			productReference = 5EB94FC41B0A52CC0046678E /* People iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EF68A2B1B0966160076EFE7 /* People Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EF68A4C1B0966160076EFE7 /* Build configuration list for PBXNativeTarget "People Mac" */;
+			buildPhases = (
+				DFA599202A7B096C8C564E19 /* Check Pods Manifest.lock */,
+				5EF68A281B0966160076EFE7 /* Sources */,
+				5EF68A291B0966160076EFE7 /* Frameworks */,
+				5EF68A2A1B0966160076EFE7 /* Resources */,
+				74E60403D8B3DF41008369AF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "People Mac";
+			productName = "People Mac";
+			productReference = 5EF68A2C1B0966160076EFE7 /* People Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EF68A431B0966160076EFE7 /* People MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EF68A4F1B0966160076EFE7 /* Build configuration list for PBXNativeTarget "People MacTests" */;
+			buildPhases = (
+				5EF68A401B0966160076EFE7 /* Sources */,
+				5EF68A411B0966160076EFE7 /* Frameworks */,
+				5EF68A421B0966160076EFE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EF68A461B0966160076EFE7 /* PBXTargetDependency */,
+			);
+			name = "People MacTests";
+			productName = "People MacTests";
+			productReference = 5EF68A441B0966160076EFE7 /* People MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EF689F41B0966010076EFE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = netguru;
+				TargetAttributes = {
+					5EB94FAB1B0A52CC0046678E = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					5EB94FC31B0A52CC0046678E = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 5EB94FAB1B0A52CC0046678E;
+					};
+					5EF68A2B1B0966160076EFE7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					5EF68A431B0966160076EFE7 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 5EF68A2B1B0966160076EFE7;
+					};
+				};
+			};
+			buildConfigurationList = 5EF689F71B0966010076EFE7 /* Build configuration list for PBXProject "People" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EF689F31B0966010076EFE7;
+			productRefGroup = 5EF689FD1B0966010076EFE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EF68A2B1B0966160076EFE7 /* People Mac */,
+				5EF68A431B0966160076EFE7 /* People MacTests */,
+				5EB94FAB1B0A52CC0046678E /* People iOS */,
+				5EB94FC31B0A52CC0046678E /* People iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EB94FAA1B0A52CC0046678E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB94FBF1B0A52CC0046678E /* LaunchScreen.xib in Resources */,
+				5EB94FBC1B0A52CC0046678E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB94FC21B0A52CC0046678E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF68A2A1B0966160076EFE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EF68A3C1B0966160076EFE7 /* Images.xcassets in Resources */,
+				5EF68A731B0985D50076EFE7 /* PPLMainView.xib in Resources */,
+				5EF68A5E1B096D780076EFE7 /* PPLMainWindow.xib in Resources */,
+				5EF68A631B096F240076EFE7 /* PPLLoginView.xib in Resources */,
+				5EF68A651B097B770076EFE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF68A421B0966160076EFE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		74E60403D8B3DF41008369AF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-People Mac/Pods-People Mac-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A223F83E0C60CDAC27E72E6A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-People iOS/Pods-People iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD8BD298CD8C10F8A6D2BF70 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DFA599202A7B096C8C564E19 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EB94FA81B0A52CC0046678E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB94FD21B0A55530046678E /* PPLAuthenticator.m in Sources */,
+				5EB950581B0A79A00046678E /* PPLContractTypeEditorViewController.m in Sources */,
+				5EB9503C1B0A649F0046678E /* PPLiOSEmployeesViewController.m in Sources */,
+				5EB950381B0A5D390046678E /* PPLTextFieldTableViewCell.m in Sources */,
+				5EB950511B0A6A6C0046678E /* PPLColumnTableViewCell.m in Sources */,
+				5EB94FB41B0A52CC0046678E /* AppDelegate.m in Sources */,
+				5EB94FD31B0A55560046678E /* PPLSharedUserController.m in Sources */,
+				5EB94FB11B0A52CC0046678E /* main.m in Sources */,
+				5EB950451B0A67920046678E /* PPLEmployeeFormViewController.m in Sources */,
+				5EB9504D1B0A68D10046678E /* PPLTableViewBasedUIView.m in Sources */,
+				5EB950541B0A70EF0046678E /* PPLStringEditorViewController.m in Sources */,
+				5EB950241B0A58BF0046678E /* PPLSharedLoginController.m in Sources */,
+				5EB9502C1B0A5A770046678E /* PPLiOSLoginViewController.m in Sources */,
+				5EB94FD51B0A555D0046678E /* PPLUser.m in Sources */,
+				5EB94FD41B0A555A0046678E /* PPLLoginUser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB94FC01B0A52CC0046678E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB94FCB1B0A52CC0046678E /* People_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF68A281B0966160076EFE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB950231B0A58BF0046678E /* PPLSharedLoginController.m in Sources */,
+				5EF68A5D1B096D780076EFE7 /* PPLMacMainWindowController.m in Sources */,
+				5E2A0F061B09876000BEE432 /* PPLLoginUser.m in Sources */,
+				5ED3A4BB1B09F42E005DBDD1 /* People.xcdatamodeld in Sources */,
+				5EF68A341B0966160076EFE7 /* main.m in Sources */,
+				5EF68A321B0966160076EFE7 /* AppDelegate.m in Sources */,
+				5EF68A681B097C150076EFE7 /* PPLMacLoginView.m in Sources */,
+				5E2A0F011B09873000BEE432 /* PPLAuthenticator.m in Sources */,
+				5E2A0F601B099EBE00BEE432 /* PPLSharedUserController.m in Sources */,
+				5EF68A721B0985D50076EFE7 /* PPLMacMainViewController.m in Sources */,
+				5EF68A621B096F240076EFE7 /* PPLMacLoginViewController.m in Sources */,
+				5EF68A6B1B097F4E0076EFE7 /* NSLabel.m in Sources */,
+				5ED3A5181B09FC4A005DBDD1 /* PPLUser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF68A401B0966160076EFE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EF68A4B1B0966160076EFE7 /* People_MacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EB94FC61B0A52CC0046678E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EB94FAB1B0A52CC0046678E /* People iOS */;
+			targetProxy = 5EB94FC51B0A52CC0046678E /* PBXContainerItemProxy */;
+		};
+		5EF68A461B0966160076EFE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EF68A2B1B0966160076EFE7 /* People Mac */;
+			targetProxy = 5EF68A451B0966160076EFE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EB94FBD1B0A52CC0046678E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EB94FBE1B0A52CC0046678E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EB94FCD1B0A52CC0046678E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 813BC688A6093CB3DD03C10A /* Pods-People iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "People iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5EB94FCE1B0A52CC0046678E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B71B671A531F8DE10C10834 /* Pods-People iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "People iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5EB94FD01B0A52CC0046678E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "People iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/People iOS.app/People iOS";
+			};
+			name = Debug;
+		};
+		5EB94FD11B0A52CC0046678E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "People iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/People iOS.app/People iOS";
+			};
+			name = Release;
+		};
+		5EF68A201B0966010076EFE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5EF68A211B0966010076EFE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EF68A4D1B0966160076EFE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 221EDC5829127C58F7FF09F4 /* Pods-People Mac.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "People Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5EF68A4E1B0966160076EFE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73D410BF3E894F2DAB7F7C86 /* Pods-People Mac.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "People Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5EF68A501B0966160076EFE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "People MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/People Mac.app/Contents/MacOS/People Mac";
+			};
+			name = Debug;
+		};
+		5EF68A511B0966160076EFE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "People MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/People Mac.app/Contents/MacOS/People Mac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EB94FCC1B0A52CC0046678E /* Build configuration list for PBXNativeTarget "People iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB94FCD1B0A52CC0046678E /* Debug */,
+				5EB94FCE1B0A52CC0046678E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EB94FCF1B0A52CC0046678E /* Build configuration list for PBXNativeTarget "People iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB94FD01B0A52CC0046678E /* Debug */,
+				5EB94FD11B0A52CC0046678E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EF689F71B0966010076EFE7 /* Build configuration list for PBXProject "People" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EF68A201B0966010076EFE7 /* Debug */,
+				5EF68A211B0966010076EFE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EF68A4C1B0966160076EFE7 /* Build configuration list for PBXNativeTarget "People Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EF68A4D1B0966160076EFE7 /* Debug */,
+				5EF68A4E1B0966160076EFE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EF68A4F1B0966160076EFE7 /* Build configuration list for PBXNativeTarget "People MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EF68A501B0966160076EFE7 /* Debug */,
+				5EF68A511B0966160076EFE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5ED3A4B61B09F42E005DBDD1 /* People.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5ED3A4B71B09F42E005DBDD1 /* People.xcdatamodel */,
+			);
+			currentVersion = 5ED3A4B71B09F42E005DBDD1 /* People.xcdatamodel */;
+			path = People.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5EF689F41B0966010076EFE7 /* Project object */;
+}

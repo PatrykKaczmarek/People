@@ -10,7 +10,7 @@
 
 #if TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
-#elseif TARGET_OS_MAC && !TARGET_OS_IPHONE
+#elif TARGET_OS_MAC && !TARGET_OS_IPHONE
 #import <AppKit/AppKit.h>
 #endif
 
