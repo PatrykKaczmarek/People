@@ -7,21 +7,44 @@
 //
 
 #import "AppDelegate.h"
+#import "PPLMainWindowController.h"
 
 @interface AppDelegate ()
 
 - (IBAction)saveAction:(id)sender;
 
+@property (strong, nonatomic) PPLMainWindowController *mainWindowController;
+
 @end
 
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+- (void)applicationDidFinishLaunching:(NSNotification*)notification {
+    [self newDocument:self];
 }
 
-- (void)applicationWillTerminate:(NSNotification *)aNotification {
-    // Insert code here to tear down your application
+#pragma mark - Menu Handling
+
+- (IBAction)newDocument:(id)sender {
+    
+    if (!self.mainWindowController) {
+        self.mainWindowController = [[PPLMainWindowController alloc] init];
+    }
+    [self.mainWindowController showWindow:self];
+}
+
+#pragma mark - Menu Customizing
+
+- (BOOL)validateMenuItem:(NSMenuItem *)theMenuItem {
+    BOOL enable = [self respondsToSelector:[theMenuItem action]];
+    
+    // disable "New" if the window is already up
+    if ([theMenuItem action] == @selector(newDocument:)) {
+        if ([[self.mainWindowController window] isKeyWindow]) {
+            enable = NO;
+        }
+    }
+    return enable;
 }
 
 #pragma mark - Core Data stack
@@ -33,7 +56,7 @@
 - (NSURL *)applicationDocumentsDirectory {
     // The directory the application uses to store the Core Data store file. This code uses a directory named "co.netguru.People_Mac" in the user's Application Support directory.
     NSURL *appSupportURL = [[[NSFileManager defaultManager] URLsForDirectory:NSApplicationSupportDirectory inDomains:NSUserDomainMask] lastObject];
-    return [appSupportURL URLByAppendingPathComponent:@"co.netguru.People_Mac"];
+    return [appSupportURL URLByAppendingPathComponent:@"co.netguru.People"];
 }
 
 - (NSManagedObjectModel *)managedObjectModel {
@@ -42,7 +65,7 @@
         return _managedObjectModel;
     }
 	
-    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"People_Mac" withExtension:@"momd"];
+    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"People" withExtension:@"momd"];
     _managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
     return _managedObjectModel;
 }
