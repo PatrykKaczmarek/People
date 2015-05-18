@@ -7,20 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E2A0F011B09873000BEE432 /* PPLAuthenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A0EFF1B09873000BEE432 /* PPLAuthenticator.m */; };
-		5E2A0F061B09876000BEE432 /* PPLLoginUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A0F041B09876000BEE432 /* PPLLoginUser.m */; };
-		5E2A0F601B099EBE00BEE432 /* PPLSharedUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A0F5E1B099EBE00BEE432 /* PPLSharedUserController.m */; };
 		5EB94FB11B0A52CC0046678E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB94FB01B0A52CC0046678E /* main.m */; };
 		5EB94FB41B0A52CC0046678E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB94FB31B0A52CC0046678E /* AppDelegate.m */; };
 		5EB94FBC1B0A52CC0046678E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB94FBB1B0A52CC0046678E /* Images.xcassets */; };
 		5EB94FBF1B0A52CC0046678E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EB94FBD1B0A52CC0046678E /* LaunchScreen.xib */; };
 		5EB94FCB1B0A52CC0046678E /* People_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB94FCA1B0A52CC0046678E /* People_iOSTests.m */; };
-		5EB94FD21B0A55530046678E /* PPLAuthenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A0EFF1B09873000BEE432 /* PPLAuthenticator.m */; };
-		5EB94FD31B0A55560046678E /* PPLSharedUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A0F5E1B099EBE00BEE432 /* PPLSharedUserController.m */; };
-		5EB94FD41B0A555A0046678E /* PPLLoginUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A0F041B09876000BEE432 /* PPLLoginUser.m */; };
-		5EB94FD51B0A555D0046678E /* PPLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3A5161B09FC4A005DBDD1 /* PPLUser.m */; };
-		5EB950231B0A58BF0046678E /* PPLSharedLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB950221B0A58BF0046678E /* PPLSharedLoginController.m */; };
-		5EB950241B0A58BF0046678E /* PPLSharedLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB950221B0A58BF0046678E /* PPLSharedLoginController.m */; };
 		5EB9502C1B0A5A770046678E /* PPLiOSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9502A1B0A5A770046678E /* PPLiOSLoginViewController.m */; };
 		5EB950381B0A5D390046678E /* PPLTextFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB950371B0A5D390046678E /* PPLTextFieldTableViewCell.m */; };
 		5EB9503C1B0A649F0046678E /* PPLiOSEmployeesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9503B1B0A649F0046678E /* PPLiOSEmployeesViewController.m */; };
@@ -29,8 +20,17 @@
 		5EB950511B0A6A6C0046678E /* PPLColumnTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB950501B0A6A6C0046678E /* PPLColumnTableViewCell.m */; };
 		5EB950541B0A70EF0046678E /* PPLStringEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB950531B0A70EF0046678E /* PPLStringEditorViewController.m */; };
 		5EB950581B0A79A00046678E /* PPLContractTypeEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB950571B0A79A00046678E /* PPLContractTypeEditorViewController.m */; };
+		5EB9505E1B0A876A0046678E /* PPLSharedLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9505B1B0A876A0046678E /* PPLSharedLoginController.m */; };
+		5EB9505F1B0A876A0046678E /* PPLSharedLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9505B1B0A876A0046678E /* PPLSharedLoginController.m */; };
+		5EB950601B0A876A0046678E /* PPLSharedUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9505D1B0A876A0046678E /* PPLSharedUserController.m */; };
+		5EB950611B0A876A0046678E /* PPLSharedUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9505D1B0A876A0046678E /* PPLSharedUserController.m */; };
+		5EB950641B0A87740046678E /* PPLAuthenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB950631B0A87740046678E /* PPLAuthenticator.m */; };
+		5EB950651B0A87740046678E /* PPLAuthenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB950631B0A87740046678E /* PPLAuthenticator.m */; };
+		5EB9506A1B0A87820046678E /* PPLLoginUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB950671B0A87820046678E /* PPLLoginUser.m */; };
+		5EB9506B1B0A87820046678E /* PPLLoginUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB950671B0A87820046678E /* PPLLoginUser.m */; };
+		5EB9506C1B0A87820046678E /* PPLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB950691B0A87820046678E /* PPLUser.m */; };
+		5EB9506D1B0A87820046678E /* PPLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB950691B0A87820046678E /* PPLUser.m */; };
 		5ED3A4BB1B09F42E005DBDD1 /* People.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3A4B61B09F42E005DBDD1 /* People.xcdatamodeld */; };
-		5ED3A5181B09FC4A005DBDD1 /* PPLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3A5161B09FC4A005DBDD1 /* PPLUser.m */; };
 		5EF68A321B0966160076EFE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF68A311B0966160076EFE7 /* AppDelegate.m */; };
 		5EF68A341B0966160076EFE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF68A331B0966160076EFE7 /* main.m */; };
 		5EF68A3C1B0966160076EFE7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EF68A3B1B0966160076EFE7 /* Images.xcassets */; };
@@ -68,12 +68,6 @@
 /* Begin PBXFileReference section */
 		221EDC5829127C58F7FF09F4 /* Pods-People Mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-People Mac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-People Mac/Pods-People Mac.debug.xcconfig"; sourceTree = "<group>"; };
 		505174E59DEE1DD457177BD8 /* libPods-People Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-People Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E2A0EFE1B09873000BEE432 /* PPLAuthenticator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPLAuthenticator.h; path = "ios & mac/PPLAuthenticator.h"; sourceTree = SOURCE_ROOT; };
-		5E2A0EFF1B09873000BEE432 /* PPLAuthenticator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPLAuthenticator.m; path = "ios & mac/PPLAuthenticator.m"; sourceTree = SOURCE_ROOT; };
-		5E2A0F031B09876000BEE432 /* PPLLoginUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPLLoginUser.h; path = "ios & mac/PPLLoginUser.h"; sourceTree = SOURCE_ROOT; };
-		5E2A0F041B09876000BEE432 /* PPLLoginUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPLLoginUser.m; path = "ios & mac/PPLLoginUser.m"; sourceTree = SOURCE_ROOT; };
-		5E2A0F5D1B099EBE00BEE432 /* PPLSharedUserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPLSharedUserController.h; path = "ios & mac/PPLSharedUserController.h"; sourceTree = SOURCE_ROOT; };
-		5E2A0F5E1B099EBE00BEE432 /* PPLSharedUserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPLSharedUserController.m; path = "ios & mac/PPLSharedUserController.m"; sourceTree = SOURCE_ROOT; };
 		5EB94FAC1B0A52CC0046678E /* People iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "People iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB94FAF1B0A52CC0046678E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EB94FB01B0A52CC0046678E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -84,8 +78,6 @@
 		5EB94FC41B0A52CC0046678E /* People iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "People iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB94FC91B0A52CC0046678E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EB94FCA1B0A52CC0046678E /* People_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = People_iOSTests.m; sourceTree = "<group>"; };
-		5EB950211B0A58BF0046678E /* PPLSharedLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPLSharedLoginController.h; path = "ios & mac/PPLSharedLoginController.h"; sourceTree = SOURCE_ROOT; };
-		5EB950221B0A58BF0046678E /* PPLSharedLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPLSharedLoginController.m; path = "ios & mac/PPLSharedLoginController.m"; sourceTree = SOURCE_ROOT; };
 		5EB950291B0A5A770046678E /* PPLiOSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPLiOSLoginViewController.h; sourceTree = "<group>"; };
 		5EB9502A1B0A5A770046678E /* PPLiOSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPLiOSLoginViewController.m; sourceTree = "<group>"; };
 		5EB950361B0A5D390046678E /* PPLTextFieldTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPLTextFieldTableViewCell.h; sourceTree = "<group>"; };
@@ -102,9 +94,17 @@
 		5EB950531B0A70EF0046678E /* PPLStringEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPLStringEditorViewController.m; sourceTree = "<group>"; };
 		5EB950561B0A79A00046678E /* PPLContractTypeEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPLContractTypeEditorViewController.h; sourceTree = "<group>"; };
 		5EB950571B0A79A00046678E /* PPLContractTypeEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPLContractTypeEditorViewController.m; sourceTree = "<group>"; };
+		5EB9505A1B0A876A0046678E /* PPLSharedLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPLSharedLoginController.h; path = "People Shared/PPLSharedLoginController.h"; sourceTree = SOURCE_ROOT; };
+		5EB9505B1B0A876A0046678E /* PPLSharedLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPLSharedLoginController.m; path = "People Shared/PPLSharedLoginController.m"; sourceTree = SOURCE_ROOT; };
+		5EB9505C1B0A876A0046678E /* PPLSharedUserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPLSharedUserController.h; path = "People Shared/PPLSharedUserController.h"; sourceTree = SOURCE_ROOT; };
+		5EB9505D1B0A876A0046678E /* PPLSharedUserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPLSharedUserController.m; path = "People Shared/PPLSharedUserController.m"; sourceTree = SOURCE_ROOT; };
+		5EB950621B0A87740046678E /* PPLAuthenticator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPLAuthenticator.h; path = "People Shared/PPLAuthenticator.h"; sourceTree = SOURCE_ROOT; };
+		5EB950631B0A87740046678E /* PPLAuthenticator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPLAuthenticator.m; path = "People Shared/PPLAuthenticator.m"; sourceTree = SOURCE_ROOT; };
+		5EB950661B0A87820046678E /* PPLLoginUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPLLoginUser.h; path = "People Shared/PPLLoginUser.h"; sourceTree = SOURCE_ROOT; };
+		5EB950671B0A87820046678E /* PPLLoginUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPLLoginUser.m; path = "People Shared/PPLLoginUser.m"; sourceTree = SOURCE_ROOT; };
+		5EB950681B0A87820046678E /* PPLUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPLUser.h; path = "People Shared/PPLUser.h"; sourceTree = SOURCE_ROOT; };
+		5EB950691B0A87820046678E /* PPLUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPLUser.m; path = "People Shared/PPLUser.m"; sourceTree = SOURCE_ROOT; };
 		5ED3A4B71B09F42E005DBDD1 /* People.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = People.xcdatamodel; sourceTree = "<group>"; };
-		5ED3A5151B09FC4A005DBDD1 /* PPLUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPLUser.h; path = "ios & mac/PPLUser.h"; sourceTree = SOURCE_ROOT; };
-		5ED3A5161B09FC4A005DBDD1 /* PPLUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPLUser.m; path = "ios & mac/PPLUser.m"; sourceTree = SOURCE_ROOT; };
 		5EF68A2C1B0966160076EFE7 /* People Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "People Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF68A2F1B0966160076EFE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EF68A301B0966160076EFE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -191,8 +191,8 @@
 		5E2A0F021B09873500BEE432 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				5E2A0EFE1B09873000BEE432 /* PPLAuthenticator.h */,
-				5E2A0EFF1B09873000BEE432 /* PPLAuthenticator.m */,
+				5EB950621B0A87740046678E /* PPLAuthenticator.h */,
+				5EB950631B0A87740046678E /* PPLAuthenticator.m */,
 			);
 			name = Managers;
 			sourceTree = "<group>";
@@ -248,10 +248,10 @@
 		5EB950251B0A58C30046678E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				5E2A0F5D1B099EBE00BEE432 /* PPLSharedUserController.h */,
-				5E2A0F5E1B099EBE00BEE432 /* PPLSharedUserController.m */,
-				5EB950211B0A58BF0046678E /* PPLSharedLoginController.h */,
-				5EB950221B0A58BF0046678E /* PPLSharedLoginController.m */,
+				5EB9505A1B0A876A0046678E /* PPLSharedLoginController.h */,
+				5EB9505B1B0A876A0046678E /* PPLSharedLoginController.m */,
+				5EB9505C1B0A876A0046678E /* PPLSharedUserController.h */,
+				5EB9505D1B0A876A0046678E /* PPLSharedUserController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -467,10 +467,10 @@
 		5EF68A561B096C2A0076EFE7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5E2A0F031B09876000BEE432 /* PPLLoginUser.h */,
-				5E2A0F041B09876000BEE432 /* PPLLoginUser.m */,
-				5ED3A5151B09FC4A005DBDD1 /* PPLUser.h */,
-				5ED3A5161B09FC4A005DBDD1 /* PPLUser.m */,
+				5EB950661B0A87820046678E /* PPLLoginUser.h */,
+				5EB950671B0A87820046678E /* PPLLoginUser.m */,
+				5EB950681B0A87820046678E /* PPLUser.h */,
+				5EB950691B0A87820046678E /* PPLUser.m */,
 				5E2A0F691B09A3C000BEE432 /* CoreData */,
 			);
 			name = Model;
@@ -744,21 +744,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EB94FD21B0A55530046678E /* PPLAuthenticator.m in Sources */,
+				5EB950611B0A876A0046678E /* PPLSharedUserController.m in Sources */,
 				5EB950581B0A79A00046678E /* PPLContractTypeEditorViewController.m in Sources */,
+				5EB9506D1B0A87820046678E /* PPLUser.m in Sources */,
 				5EB9503C1B0A649F0046678E /* PPLiOSEmployeesViewController.m in Sources */,
+				5EB950651B0A87740046678E /* PPLAuthenticator.m in Sources */,
 				5EB950381B0A5D390046678E /* PPLTextFieldTableViewCell.m in Sources */,
 				5EB950511B0A6A6C0046678E /* PPLColumnTableViewCell.m in Sources */,
 				5EB94FB41B0A52CC0046678E /* AppDelegate.m in Sources */,
-				5EB94FD31B0A55560046678E /* PPLSharedUserController.m in Sources */,
 				5EB94FB11B0A52CC0046678E /* main.m in Sources */,
 				5EB950451B0A67920046678E /* PPLEmployeeFormViewController.m in Sources */,
 				5EB9504D1B0A68D10046678E /* PPLTableViewBasedUIView.m in Sources */,
 				5EB950541B0A70EF0046678E /* PPLStringEditorViewController.m in Sources */,
-				5EB950241B0A58BF0046678E /* PPLSharedLoginController.m in Sources */,
 				5EB9502C1B0A5A770046678E /* PPLiOSLoginViewController.m in Sources */,
-				5EB94FD51B0A555D0046678E /* PPLUser.m in Sources */,
-				5EB94FD41B0A555A0046678E /* PPLLoginUser.m in Sources */,
+				5EB9505F1B0A876A0046678E /* PPLSharedLoginController.m in Sources */,
+				5EB9506B1B0A87820046678E /* PPLLoginUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -774,19 +774,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EB950231B0A58BF0046678E /* PPLSharedLoginController.m in Sources */,
+				5EB950601B0A876A0046678E /* PPLSharedUserController.m in Sources */,
+				5EB9506A1B0A87820046678E /* PPLLoginUser.m in Sources */,
 				5EF68A5D1B096D780076EFE7 /* PPLMacMainWindowController.m in Sources */,
-				5E2A0F061B09876000BEE432 /* PPLLoginUser.m in Sources */,
 				5ED3A4BB1B09F42E005DBDD1 /* People.xcdatamodeld in Sources */,
 				5EF68A341B0966160076EFE7 /* main.m in Sources */,
 				5EF68A321B0966160076EFE7 /* AppDelegate.m in Sources */,
 				5EF68A681B097C150076EFE7 /* PPLMacLoginView.m in Sources */,
-				5E2A0F011B09873000BEE432 /* PPLAuthenticator.m in Sources */,
-				5E2A0F601B099EBE00BEE432 /* PPLSharedUserController.m in Sources */,
 				5EF68A721B0985D50076EFE7 /* PPLMacMainViewController.m in Sources */,
 				5EF68A621B096F240076EFE7 /* PPLMacLoginViewController.m in Sources */,
+				5EB9506C1B0A87820046678E /* PPLUser.m in Sources */,
+				5EB9505E1B0A876A0046678E /* PPLSharedLoginController.m in Sources */,
 				5EF68A6B1B097F4E0076EFE7 /* NSLabel.m in Sources */,
-				5ED3A5181B09FC4A005DBDD1 /* PPLUser.m in Sources */,
+				5EB950641B0A87740046678E /* PPLAuthenticator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -110,8 +110,6 @@ static NSString * const PPLTableViewCellIdentifier = @"PPLTableViewCellIdentifie
     
     [self.sharedLoginController loginWithCompetion:^(BOOL success, NSError *error) {
         
-        success = YES;
-        
         if (success) {
             PPLiOSEmployeesViewController *emplyeesViewController = [[PPLiOSEmployeesViewController alloc] init];
             emplyeesViewController.navigationItem.hidesBackButton = YES;
